@@ -1,15 +1,11 @@
 {
-  "name": "encrypt-decrypt-api",
+  "name": "my-encryption-api",
   "version": "1.0.0",
-  "description": "API for encrypting and decrypting IDs using Node.js",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "crypto": "^1.0.1"
+  }
 }
